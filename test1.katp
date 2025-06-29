@@ -1,0 +1,21 @@
+## A fully functional Katappa program
+let .a : num;
+let .b : num;
+let .result : num;
+
+.a = 20;
+.b = 10;
+.result = .a + .b;
+
+print "The result of a + b is:";
+print .result;
+
+.result = .a * .b;
+print "The result of a * b is:";
+print .result;
+
+when .result > .a {
+    print "The product is greater than the first number!";
+} other {
+    print "This part should not run.";
+}
